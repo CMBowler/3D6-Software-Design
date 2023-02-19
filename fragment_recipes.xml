@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500"
+    tools:context=".Recipes">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recipes Fragment"
+        android:textSize = "26dp"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#8FED8F"
+        android:src="@drawable/light_green_color_solid_background_1920x1080" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:layout_margin="20px"
+        android:src="@drawable/noun_search_5511523" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="290dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:inputType="textPersonName"
+        android:text="Search Recipe based on the item"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="109dp"
+        android:layout_marginTop="40px"
+        android:layout_marginLeft="200px"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="381dp"
+        android:layout_height="29dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Panner Butter Masala- Milk"
+        android:textSize="20sp"
+        android:layout_marginTop="200px"
+        android:layout_marginLeft="40px"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="336dp"
+        android:layout_height="62dp"
+        android:fontFamily="monospace"
+        android:text="Indian cottage cheese cubes are smothered in a creamy, lightly spiced tomato sauce that is downright delicious"
+        android:textSize="14sp"
+        android:layout_marginTop="280px"
+        android:layout_marginLeft="40px"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="381dp"
+        android:layout_height="29dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Banana Bread- Ripe Bananas"
+        android:textSize="20sp"
+        android:layout_marginTop="450px"
+        android:layout_marginLeft="40px" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="381dp"
+        android:layout_height="29dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Dahi Idli- Curd"
+        android:textSize="20sp"
+        android:layout_marginTop="750px"
+        android:layout_marginLeft="40px" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="381dp"
+        android:layout_height="29dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Garlic Cheese Toast- Bread"
+        android:textSize="20sp"
+        android:layout_marginTop="1050px"
+        android:layout_marginLeft="40px" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="339dp"
+        android:layout_height="72dp"
+        android:fontFamily="monospace"
+        android:text="A cross between banana bread and a drizzle cake, this easy banana loaf recipe is a quick bake that can be frozen. It's great for using up overripe bananas, too."
+        android:textSize="14sp"
+        android:layout_marginTop="530px"
+        android:layout_marginLeft="40px" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="340dp"
+        android:layout_height="69dp"
+        android:fontFamily="monospace"
+        android:text="It’s an easy snack dish, where steamed idlis are soaked in beaten curd and seasoned with salt, black salt, chaat masala, black pepper, green chutney, and tamarind chutney. "
+        android:textSize="14sp"
+        android:layout_marginTop="830px"
+        android:layout_marginLeft="40px" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="336dp"
+        android:layout_height="62dp"
+        android:fontFamily="monospace"
+        android:text="A mixture of cheeses, butter, and garlic all slathered on thick white bread and baked until bubbly and golden brown. "
+        android:textSize="14sp"
+        android:layout_marginTop="1130px"
+        android:layout_marginLeft="40px" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="81dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="750px"
+        android:layout_marginTop="400px"
+        android:src="@drawable/banana_bread" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="72dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="750px"
+        android:layout_marginTop="170px"
+        android:src="@drawable/paneer" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="69dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="750px"
+        android:layout_marginTop="710px"
+        android:src="@drawable/pancakes" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="59dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="750px"
+        android:layout_marginTop="1010px"
+        android:src="@drawable/french_toast" />
+
+
+</FrameLayout>
