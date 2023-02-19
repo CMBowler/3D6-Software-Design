@@ -4,3 +4,17 @@
 
 Create new drawable using this image
 Name it 'scan_icon'
+
+
+```xml
+<fragment
+        android:id="@+id/ScanPage"
+        android:name="com.example.application.ScanPage"
+        tools:layout="@layout/scan_page">
+
+        <action
+            android:id="@+id/action_Scan_to_List"
+            app:destination="@id/[destination]" />
+    </fragment>
+```
+Add to the navigation -> nav_graph xml file
